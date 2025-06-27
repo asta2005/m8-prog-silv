@@ -1,0 +1,30 @@
+.book {
+    background-color: white;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #333;
+    min-width: 24px;
+}
+
+.bookInfo h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.bookInfo h4 {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.25rem 0 0;
+    font-weight: 400;
+}

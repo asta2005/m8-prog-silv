@@ -1,0 +1,56 @@
+.cookieClicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.cookie {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 50%;
+  background: brown;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.1s;
+}
+
+.cookie:active {
+  transform: scale(0.95);
+}
+
+.container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.upgradeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upgrade {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #ffcc66;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.upgrade:hover {
+  background-color: #ffdb85;
+}

@@ -1,0 +1,78 @@
+.pokemon {
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 1rem auto;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pokemon img {
+  width: 150px;
+  height: auto;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.type {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.grass { background-color: #78C850; }
+.fire { background-color: #F08030; }
+.water { background-color: #6890F0; }
+.poison { background-color: #A040A0; }
+.electric { background-color: #F8D030; }
+.flying { background-color: #A890F0; }
+/* Voeg hier meer type-kleuren toe indien nodig */
+
+.movesTitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.moves {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.move {
+  margin-bottom: 0.25rem;
+  font-weight: normal;
+}
+
+.stab {
+  color: green;
+  margin-left: 0.5rem;
+}
+
+.toggle {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
